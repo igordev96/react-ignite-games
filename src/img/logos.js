@@ -5,4 +5,6 @@ import playstation from "./playstation.svg";
 import steam from "./steam.svg";
 import xbox from "./xbox.svg";
 
-export default { apple, gamepad, nintendo, playstation, steam, xbox };
+const logos = { apple, gamepad, nintendo, playstation, steam, xbox };
+
+export default logos;
