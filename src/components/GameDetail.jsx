@@ -148,8 +148,9 @@ const Info = styled(motion.div)`
 const Platforms = styled(motion.div)`
   display: flex;
   justify-content: space-evenly;
+  gap: 1.6vw;
   img {
-    margin-left: 3rem;
+    width: 3vw;
   }
 `;
 
