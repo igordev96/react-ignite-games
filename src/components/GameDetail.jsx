@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 import StarRatings from "react-star-ratings";
 
-import smallImage from "../util";
+// import smallImage from "../util";
 
 import logos from "../img/logos";
 
@@ -75,10 +75,7 @@ const GameDetail = ({ pathId }) => {
               </Info>
             </Stats>
             <Media>
-              <img
-                src={smallImage(game.background_image, 1280)}
-                alt="background"
-              />
+              <img src={game.background_image} alt="background" />
             </Media>
             <Description>
               <p>{game.description_raw}</p>
@@ -87,7 +84,7 @@ const GameDetail = ({ pathId }) => {
               {screen.results.map((screenshot) => (
                 <img
                   key={screenshot.id}
-                  src={smallImage(screenshot.image, 1280)}
+                  src={screenshot.image}
                   alt="screenshot"
                 />
               ))}
