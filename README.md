@@ -4,7 +4,7 @@ A web app to see everything about games. You can search, or see the fixed catego
 
 ## Tech Stack
 
-React, Styled-Components, Axios, Framer-Motion, React-Router, Star Ratings...
+React, Styled-Components, Axios, Framer-Motion, React-Router, Redux, Redux-Thunk, React-Redux, Star Ratings...
 
 ## Demo
 
