@@ -52,3 +52,7 @@ export const gameScreenshotsURL = (id) =>
 export const popularGamesURL = () => `${base_url}${popular_games}&${apiKey}`;
 export const upcomingGamesURL = () => `${base_url}${upcoming_games}&${apiKey}`;
 export const newGamesURL = () => `${base_url}${new_games}&${apiKey}`;
+
+//Searched Game
+export const searchGame = (game_name) =>
+  `${base_url}games?search=${game_name}&page_size=9&${apiKey}`;
